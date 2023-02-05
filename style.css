@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roobert';
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+@font-face {
+    font-family: "Roobert";
+    src: url("Roobert-Regular.ttf");
+
+}
+
+@media (max-width: 5550px) {
+    .text {
+        
+        position: relative;
+        color: #fff;
+        white-space: nowrap;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .btn1 {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 240px;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        margin-top: 410px;
+        padding: 25px 35px;
+        color: #FFF;
+        transition: 0.3s ease-in-out;
+        font-weight: 600;
+        background-color: rgb(114, 137, 218);
+        border-radius: 8px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .text a:hover {
+        background: rgb(114, 137, 258);
+    }
+
+    .text h1 {
+        position: absolute;
+        left: 50%;
+        margin: 0 0 12px;
+        font-size: 40px;
+
+        transform: translateX(-50%);
+        margin-top: 280px;
+    }
+
+    .text .iti {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        white-space: nowrap;
+        font-size: 13.5px;
+        margin-left: -140px;
+        transform: translateX(-50%);
+        margin-top: 365px;
+    }
+
+    .text .ni {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        white-space: nowrap;
+        font-size: 13.5px;
+        margin-left: 155px;
+        transform: translateX(-50%);
+        margin-top: 365px;
+    }
+}
+
+@media (max-width: 640px) {
+    .text {
+        position: relative;
+        color: #fff;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .btn1 {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 240px;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+        margin-top: 430px;
+        padding: 20px 20px;
+        color: #FFF;
+        transition: 0.3s ease-in-out;
+        background-color: rgb(114, 137, 255);
+        border-radius: 8px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .text a:hover {
+        background: rgb(114, 137, 258);
+    }
+
+    .text h1 {
+        position: absolute;
+        margin-top: 60%;
+        font-size: 40px;
+    }
+
+    .text .iti {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: 0;
+        white-space: nowrap;
+        font-size: 15px;
+        transform: translateX(-53.5%);
+        margin-top: 365px;
+    }
+
+    .text .ni {
+        position: absolute;
+        margin-left: 5px;
+        white-space: nowrap;
+        font-size: 15px;
+        transform: translateX(-55%);
+        margin-top: 385px;
+    }
+}
